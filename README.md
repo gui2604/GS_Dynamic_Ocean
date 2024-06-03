@@ -34,10 +34,10 @@
   <li>atividades_economicas</li>
 </ul>
 <p>Corpo da Função:</p>
-<span>
 '''
-def calcular_valor_area_marinha(biodiversidade, recursos_naturais, atividades_economicas):
-    Pesos fictícios para cada fator
+
+  def calcular_valor_area_marinha(biodiversidade, recursos_naturais, atividades_economicas):
+  
     peso_biodiversidade = 0.4
     peso_recursos_naturais = 0.3
     peso_atividades_economicas = 0.3
@@ -51,7 +51,6 @@ def calcular_valor_area_marinha(biodiversidade, recursos_naturais, atividades_ec
 
     return valor_total
 '''
-</span>
 <p>Exemplo de Uso da função:</p>
 <span>valor_area = calcular_valor_area_marinha(biodiversidade, recursos_naturais, atividades_economicas)
 print(f"O valor da área marinha é: {valor_area:.2f}")</span>
