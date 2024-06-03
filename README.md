@@ -34,9 +34,9 @@
   <li>atividades_economicas</li>
 </ul>
 <p>Corpo da Função:</p>
-'''
 
-  def calcular_valor_area_marinha(biodiversidade, recursos_naturais, atividades_economicas):
+```
+def calcular_valor_area_marinha(biodiversidade, recursos_naturais, atividades_economicas):
   
     peso_biodiversidade = 0.4
     peso_recursos_naturais = 0.3
@@ -50,29 +50,7 @@
     )
 
     return valor_total
-'''
-<p>Exemplo de Uso da função:</p>
-<span>valor_area = calcular_valor_area_marinha(biodiversidade, recursos_naturais, atividades_economicas)
-print(f"O valor da área marinha é: {valor_area:.2f}")</span>
-
-<div></div>
-
-##Função otimizar_alocacao_recursos
-Otimiza a alocação de recursos para maximizar o valor total das áreas marinhas.
-Parâmetros
-valores_areas (list): Lista dos valores das áreas marinhas.
-recursos_disponiveis (float): Total de recursos disponíveis.
-custos (list): Lista dos custos para alocar recursos em cada área.
-Retorno
-list: Quantidade de recursos alocados para cada área.
-Exemplo
-valores_areas = [500, 600, 700, 800]
-recursos_disponiveis = 1000
-custos = [100, 150, 200, 250]
-alocacao_otima = otimizar_alocacao_recursos(valores_areas, recursos_disponiveis, custos)
-print(f"A alocação ótima de recursos é: {alocacao_otima}")
-
-<div></div>
+```
 
 
 
