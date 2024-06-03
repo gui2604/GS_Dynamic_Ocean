@@ -29,21 +29,28 @@
 <p>Calcula o valor de uma área marinha com base em fatores de biodiversidade, recursos naturais e atividades econômicas.</p>
 <p>Parâmetros</p>
 <ul>
-  <li>biodiversidade = 80</li>
-  <li>recursos_naturais = 100</li>
-  <li>atividades_economicas = 120</li>
+  <li>biodiversidade</li>
+  <li>recursos_naturais </li>
+  <li>atividades_economicas</li>
 </ul>
 <p>Corpo da Função:</p>
 <span>
-    peso_biodiversidade = 0.4<br>
-    peso_recursos_naturais = 0.3<br>
-    peso_atividades_economicas = 0.3<br>
-    valor_total = (<br>
-            peso_biodiversidade * biodiversidade +<br>
-            peso_recursos_naturais * recursos_naturais +<br>
-            peso_atividades_economicas * atividades_economicas<br>
-    )<br>
+'''
+def calcular_valor_area_marinha(biodiversidade, recursos_naturais, atividades_economicas):
+    Pesos fictícios para cada fator
+    peso_biodiversidade = 0.4
+    peso_recursos_naturais = 0.3
+    peso_atividades_economicas = 0.3
+
+    Calcula o valor total
+    valor_total = (
+            peso_biodiversidade * biodiversidade +
+            peso_recursos_naturais * recursos_naturais +
+            peso_atividades_economicas * atividades_economicas
+    )
+
     return valor_total
+'''
 </span>
 <p>Exemplo de Uso da função:</p>
 <span>valor_area = calcular_valor_area_marinha(biodiversidade, recursos_naturais, atividades_economicas)
